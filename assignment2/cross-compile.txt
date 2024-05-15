@@ -1,0 +1,12 @@
+Version: aarch64-none-linux-gnu-gcc 10.3
+
+Coinfifuration:
+--target=aarch64-none-linux-gnu
+--prefix=/usr/aarch64-none-linux-gnu
+--with-sysroot=/usr/aarch64-none-linux-gnu/sysroot
+--enable-language=c,c++
+--disable-multilib
+--disable-bootstrap
+
+Sysroot Path:
+/usr/aarch64-none-linux-gnu/sysroot
