@@ -1,5 +1,5 @@
 #!/bin/sh
-# Tester script for assignment 1 and assignment 2
+# Tester script for assignment 3
 # Author: Sumit kumar
 
 set -e
