@@ -13,4 +13,4 @@ set(AUTOTEST_SOURCES
 set(TESTED_SOURCE
     ../examples/autotest-validate/autotest-validate.c
 )
-add_subdirectory(assignment-autotest)
+add_subdirectory(assignments-base)
