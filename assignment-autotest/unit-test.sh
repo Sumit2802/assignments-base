@@ -10,8 +10,4 @@ cmake ..
 make clean
 make
 cd ..
-<<<<<<< Updated upstream
-./assignment-autotest/assignment-autotest
-=======
-./assignment-autotest
->>>>>>> Stashed changes
+./build/assignment-autotest/assignment-autotest
