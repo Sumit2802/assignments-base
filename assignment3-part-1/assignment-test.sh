@@ -28,7 +28,6 @@ if [[ -z ${DO_VALIDATE} || ${DO_VALIDATE} -eq 1 ]]; then
     echo "Kick off qemu in the background"
     ./start-qemu-app.sh ${OUTDIR} &
     echo "Wait for app to finish"
-    # See https://stackoverflow.com/a/6456103
     timeout ${qemu_timeout} grep -q "finder-app execution complete" <(tail -f ${logfile})
     rc=$?
     if [ $rc -ne 0 ]; then
